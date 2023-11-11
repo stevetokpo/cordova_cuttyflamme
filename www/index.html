@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cutty Flamme</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: black;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="splash-screen">
+        <img src="assets/img/splash.png" alt="Logo Cutty Flamme">
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.location.href = 'http://localhost/apps/cuttyflamme';
+        });
+    </script>
+</body>
+</html>
